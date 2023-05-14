@@ -1,14 +1,1846 @@
 [
-    {
-        "name": "Benfica",
-        "value": "9460046"
-    },
-    {
-        "name": "Bar",
-        "value": "Valor de Bar"
-    },
-    {
-        "name": "Baz",
-        "value": "Valor de Baz"
-    }
+  {
+    "name": "Abrantes",
+    "value": "9452001"
+  },
+  {
+    "name": "Adémia",
+    "value": "9436046"
+  },
+  {
+    "name": "Afife",
+    "value": "9418119"
+  },
+  {
+    "name": "Agualva-Cacém",
+    "value": "9461002"
+  },
+  {
+    "name": "Aguda",
+    "value": "9439057"
+  },
+  {
+    "name": "Aguieira",
+    "value": "9442267"
+  },
+  {
+    "name": "Aguim",
+    "value": "9437093"
+  },
+  {
+    "name": "Albergaria Nova",
+    "value": "9444495"
+  },
+  {
+    "name": "Albergaria Velha",
+    "value": "9444552"
+  },
+  {
+    "name": "Albufeira",
+    "value": "9478063"
+  },
+  {
+    "name": "Alcaide ",
+    "value": "9453504"
+  },
+  {
+    "name": "Alcains",
+    "value": "9453140"
+  },
+  {
+    "name": "Alcantarilha",
+    "value": "9490092"
+  },
+  {
+    "name": "Alcaria",
+    "value": "9453629"
+  },
+  {
+    "name": "Alcântara-Mar",
+    "value": "9469039"
+  },
+  {
+    "name": "Alcântara-Terra",
+    "value": "9467025"
+  },
+  {
+    "name": "Aldeia",
+    "value": "9449411"
+  },
+  {
+    "name": "Alegria",
+    "value": "9411064"
+  },
+  {
+    "name": "Alferrarede",
+    "value": "9452068"
+  },
+  {
+    "name": "Algoz",
+    "value": "9490050"
+  },
+  {
+    "name": "Algueirão",
+    "value": "9461069"
+  },
+  {
+    "name": "Algés",
+    "value": "9469088"
+  },
+  {
+    "name": "Alhandra",
+    "value": "9431237"
+  },
+  {
+    "name": "Alhos Vedros",
+    "value": "9495075"
+  },
+  {
+    "name": "Almancil",
+    "value": "9478253"
+  },
+  {
+    "name": "Almourol",
+    "value": "9451102"
+  },
+  {
+    "name": "Alpedrinha",
+    "value": "9453355"
+  },
+  {
+    "name": "Alvarães",
+    "value": "9406338"
+  },
+  {
+    "name": "Alvega-Ortiga",
+    "value": "9452209"
+  },
+  {
+    "name": "Alverca",
+    "value": "9431187"
+  },
+  {
+    "name": "Alvito",
+    "value": "9474351"
+  },
+  {
+    "name": "Amadora",
+    "value": "9460087"
+  },
+  {
+    "name": "Ameal",
+    "value": "9435097"
+  },
+  {
+    "name": "Amoreiras-Odemira",
+    "value": "9477099"
+  },
+  {
+    "name": "Aregos",
+    "value": "9409191"
+  },
+  {
+    "name": "Areia-Darque",
+    "value": "9406395"
+  },
+  {
+    "name": "Arentim",
+    "value": "9429066"
+  },
+  {
+    "name": "Areosa",
+    "value": "9418044"
+  },
+  {
+    "name": "Arronches",
+    "value": "9457174"
+  },
+  {
+    "name": "Assumar",
+    "value": "9457117"
+  },
+  {
+    "name": "Avanca",
+    "value": "9438216"
+  },
+  {
+    "name": "Aveiro",
+    "value": "9438000"
+  },
+  {
+    "name": "Aveiro-Vouga",
+    "value": "9442002"
+  },
+  {
+    "name": "Aveleda",
+    "value": "9429108"
+  },
+  {
+    "name": "Azambuja",
+    "value": "9433001"
+  },
+  {
+    "name": "Azurva",
+    "value": "9442051"
+  },
+  {
+    "name": "Baixa da Banheira",
+    "value": "9495059"
+  },
+  {
+    "name": "Baraçal",
+    "value": "9448454"
+  },
+  {
+    "name": "Barca da Amieira",
+    "value": "9452415"
+  },
+  {
+    "name": "Barcelos",
+    "value": "9406122"
+  },
+  {
+    "name": "Barqueiros",
+    "value": "9409324"
+  },
+  {
+    "name": "Barquinha",
+    "value": "9451045"
+  },
+  {
+    "name": "Barragem de Belver",
+    "value": "9452241"
+  },
+  {
+    "name": "Barreiro",
+    "value": "9495000"
+  },
+  {
+    "name": "Barreiro-A",
+    "value": "9495026"
+  },
+  {
+    "name": "Barrimau",
+    "value": "9405058"
+  },
+  {
+    "name": "Barroselas",
+    "value": "9406304"
+  },
+  {
+    "name": "Beja",
+    "value": "9475002"
+  },
+  {
+    "name": "Belmonte-Manteigas",
+    "value": "9454197"
+  },
+  {
+    "name": "Belver",
+    "value": "9452282"
+  },
+  {
+    "name": "Belém",
+    "value": "9469054"
+  },
+  {
+    "name": "Bemposta",
+    "value": "9455129"
+  },
+  {
+    "name": "Bencanta",
+    "value": "9435170"
+  },
+  {
+    "name": "Benespera",
+    "value": "9454338"
+  },
+  {
+    "name": "Benfica",
+    "value": "9460046"
+  },
+  {
+    "name": "Benquerenças",
+    "value": "9452878"
+  },
+  {
+    "name": "Bifurcação de Lares",
+    "value": "9464022"
+  },
+  {
+    "name": "Bobadela",
+    "value": "9431070"
+  },
+  {
+    "name": "Boliqueime",
+    "value": "9478147"
+  },
+  {
+    "name": "Bom João",
+    "value": "9473031"
+  },
+  {
+    "name": "Bombarral",
+    "value": "9462703"
+  },
+  {
+    "name": "Braga",
+    "value": "9429157"
+  },
+  {
+    "name": "Braço de Prata",
+    "value": "9431005"
+  },
+  {
+    "name": "Bustelo",
+    "value": "9408334"
+  },
+  {
+    "name": "Cabanões",
+    "value": "9442150"
+  },
+  {
+    "name": "Cabeda",
+    "value": "9408029"
+  },
+  {
+    "name": "Cacela",
+    "value": "9473452"
+  },
+  {
+    "name": "Cacia",
+    "value": "9438075"
+  },
+  {
+    "name": "Cais do Sodré",
+    "value": "9469005"
+  },
+  {
+    "name": "Caldas da Rainha",
+    "value": "9463008"
+  },
+  {
+    "name": "Caldas de Moledo",
+    "value": "9409399"
+  },
+  {
+    "name": "Caminha",
+    "value": "9418242"
+  },
+  {
+    "name": "Campolide",
+    "value": "9460004"
+  },
+  {
+    "name": "Canas-Felgueira",
+    "value": "9446599"
+  },
+  {
+    "name": "Canelas",
+    "value": "9438117"
+  },
+  {
+    "name": "Caniços",
+    "value": "9428100"
+  },
+  {
+    "name": "Carapeços",
+    "value": "9406197"
+  },
+  {
+    "name": "Carcavelos",
+    "value": "9469187"
+  },
+  {
+    "name": "Caria",
+    "value": "9454148"
+  },
+  {
+    "name": "Carrascal-Delongo",
+    "value": "9440030"
+  },
+  {
+    "name": "Carregado",
+    "value": "9431336"
+  },
+  {
+    "name": "Carregal do Sal",
+    "value": "9446482"
+  },
+  {
+    "name": "Carreira",
+    "value": "9406056"
+  },
+  {
+    "name": "Carreço",
+    "value": "9418085"
+  },
+  {
+    "name": "Carvalha",
+    "value": "9418416"
+  },
+  {
+    "name": "Carvalhal da Portela",
+    "value": "9442309"
+  },
+  {
+    "name": "Carvalheira-Maceda",
+    "value": "9438356"
+  },
+  {
+    "name": "Carvalhos de Figueiredo",
+    "value": "9440113"
+  },
+  {
+    "name": "Casa Branca",
+    "value": "9474005"
+  },
+  {
+    "name": "Casais",
+    "value": "9435147"
+  },
+  {
+    "name": "Casal Álvaro",
+    "value": "9442168"
+  },
+  {
+    "name": "Cascais",
+    "value": "9469260"
+  },
+  {
+    "name": "Castanheira do Ribatejo",
+    "value": "9431310"
+  },
+  {
+    "name": "Castelejo",
+    "value": "9446409"
+  },
+  {
+    "name": "Castelo Branco",
+    "value": "9453009"
+  },
+  {
+    "name": "Castelo Novo",
+    "value": "9453314"
+  },
+  {
+    "name": "Castro Marim",
+    "value": "9473502"
+  },
+  {
+    "name": "Caxarias",
+    "value": "9434330"
+  },
+  {
+    "name": "Caxias",
+    "value": "9469120"
+  },
+  {
+    "name": "Caíde",
+    "value": "9408383"
+  },
+  {
+    "name": "Celorico da Beira",
+    "value": "9448405"
+  },
+  {
+    "name": "Cerdeira",
+    "value": "9449205"
+  },
+  {
+    "name": "Chança",
+    "value": "9456101"
+  },
+  {
+    "name": "Coimbra",
+    "value": "9441020"
+  },
+  {
+    "name": "Coimbra-B",
+    "value": "9436004"
+  },
+  {
+    "name": "Coimbrões",
+    "value": "9439149"
+  },
+  {
+    "name": "Conceição",
+    "value": "9473379"
+  },
+  {
+    "name": "Contumil",
+    "value": "9403004"
+  },
+  {
+    "name": "Cortegaça",
+    "value": "9438372"
+  },
+  {
+    "name": "Couto de Cambeses",
+    "value": "9429033"
+  },
+  {
+    "name": "Covas",
+    "value": "9428290"
+  },
+  {
+    "name": "Covelinhas",
+    "value": "9410090"
+  },
+  {
+    "name": "Covilhã",
+    "value": "9454007"
+  },
+  {
+    "name": "Crato",
+    "value": "9456267"
+  },
+  {
+    "name": "Cruz Quebrada",
+    "value": "9469104"
+  },
+  {
+    "name": "Cuba",
+    "value": "9474476"
+  },
+  {
+    "name": "Cuca",
+    "value": "9428209"
+  },
+  {
+    "name": "Curia",
+    "value": "9437119"
+  },
+  {
+    "name": "Curvaceiras",
+    "value": "9440063"
+  },
+  {
+    "name": "Cête",
+    "value": "9408227"
+  },
+  {
+    "name": "Dagorda-Peniche",
+    "value": "9462802"
+  },
+  {
+    "name": "Darque",
+    "value": "9406387"
+  },
+  {
+    "name": "Dois Portos",
+    "value": "9462380"
+  },
+  {
+    "name": "Donas",
+    "value": "9453520"
+  },
+  {
+    "name": "Durrães",
+    "value": "9406262"
+  },
+  {
+    "name": "Eirol",
+    "value": "9442119"
+  },
+  {
+    "name": "Eixo",
+    "value": "9442077"
+  },
+  {
+    "name": "Elvas",
+    "value": "9457497"
+  },
+  {
+    "name": "Entrecampos",
+    "value": "9466050"
+  },
+  {
+    "name": "Entroncamento",
+    "value": "9434009"
+  },
+  {
+    "name": "Ermesinde",
+    "value": "9404002"
+  },
+  {
+    "name": "Ermida",
+    "value": "9409258"
+  },
+  {
+    "name": "Ermidas Sado",
+    "value": "9493005"
+  },
+  {
+    "name": "Esgueira",
+    "value": "9442028"
+  },
+  {
+    "name": "Esmeriz",
+    "value": "9405033"
+  },
+  {
+    "name": "Esmoriz",
+    "value": "9438406"
+  },
+  {
+    "name": "Espadanal da Azambuja",
+    "value": "9431401"
+  },
+  {
+    "name": "Espadaneira",
+    "value": "9435162"
+  },
+  {
+    "name": "Espinho",
+    "value": "9439008"
+  },
+  {
+    "name": "Esqueiro",
+    "value": "9418291"
+  },
+  {
+    "name": "Estarreja",
+    "value": "9438158"
+  },
+  {
+    "name": "Estoril",
+    "value": "9469245"
+  },
+  {
+    "name": "Estômbar-Lagoa",
+    "value": "9490241"
+  },
+  {
+    "name": "Famalicão",
+    "value": "9405074"
+  },
+  {
+    "name": "Famalicão da Nazaré",
+    "value": "9463180"
+  },
+  {
+    "name": "Faro",
+    "value": "9473007"
+  },
+  {
+    "name": "Fatela-Penamacor",
+    "value": "9453462"
+  },
+  {
+    "name": "Feliteira",
+    "value": "9462364"
+  },
+  {
+    "name": "Fernando Pó",
+    "value": "9471050"
+  },
+  {
+    "name": "Ferradosa",
+    "value": "9411114"
+  },
+  {
+    "name": "Ferragudo",
+    "value": "9490274"
+  },
+  {
+    "name": "Ferreiros",
+    "value": "9429132"
+  },
+  {
+    "name": "Ferrão",
+    "value": "9410165"
+  },
+  {
+    "name": "Figueira da Foz",
+    "value": "9464113"
+  },
+  {
+    "name": "Fontela",
+    "value": "9464089"
+  },
+  {
+    "name": "Fontela-A",
+    "value": "9464097"
+  },
+  {
+    "name": "Formoselha",
+    "value": "9435030"
+  },
+  {
+    "name": "Fornos de Algodres",
+    "value": "9448249"
+  },
+  {
+    "name": "Francelos",
+    "value": "9439081"
+  },
+  {
+    "name": "Fratel",
+    "value": "9452571"
+  },
+  {
+    "name": "Freineda",
+    "value": "9449387"
+  },
+  {
+    "name": "Freixo de Numão",
+    "value": "9411247"
+  },
+  {
+    "name": "Funcheira",
+    "value": "9477008"
+  },
+  {
+    "name": "Fundão",
+    "value": "9453546"
+  },
+  {
+    "name": "Fungalvaz",
+    "value": "9434199"
+  },
+  {
+    "name": "Fuseta",
+    "value": "9473205"
+  },
+  {
+    "name": "Fuseta-A",
+    "value": "9473197"
+  },
+  {
+    "name": "Fátima",
+    "value": "9434249"
+  },
+  {
+    "name": "Gata",
+    "value": "9449049"
+  },
+  {
+    "name": "General Torres",
+    "value": "9439172"
+  },
+  {
+    "name": "Giesteira",
+    "value": "9428159"
+  },
+  {
+    "name": "Godim",
+    "value": "9409423"
+  },
+  {
+    "name": "Gondarém",
+    "value": "9418325"
+  },
+  {
+    "name": "Gouveia",
+    "value": "9448165"
+  },
+  {
+    "name": "Granja",
+    "value": "9439040"
+  },
+  {
+    "name": "Grândola",
+    "value": "9492577"
+  },
+  {
+    "name": "Guarda",
+    "value": "9449007"
+  },
+  {
+    "name": "Guia",
+    "value": "9463800"
+  },
+  {
+    "name": "Guimarães",
+    "value": "9424000"
+  },
+  {
+    "name": "Irivo",
+    "value": "9408243"
+  },
+  {
+    "name": "Jerumelo",
+    "value": "9462257"
+  },
+  {
+    "name": "Juncal",
+    "value": "9409050"
+  },
+  {
+    "name": "Lagos",
+    "value": "9490464"
+  },
+  {
+    "name": "Lamarosa",
+    "value": "9434090"
+  },
+  {
+    "name": "Lapa do Lobo",
+    "value": "9446581"
+  },
+  {
+    "name": "Lardosa",
+    "value": "9453215"
+  },
+  {
+    "name": "Lares",
+    "value": "9464055"
+  },
+  {
+    "name": "Lavradio",
+    "value": "9495042"
+  },
+  {
+    "name": "Leandro",
+    "value": "9404036"
+  },
+  {
+    "name": "Leiria",
+    "value": "9463560"
+  },
+  {
+    "name": "Lisboa-Oriente",
+    "value": "9431039"
+  },
+  {
+    "name": "Lisboa Santa Apolónia",
+    "value": "9430007"
+  },
+  {
+    "name": "Litém",
+    "value": "9434504"
+  },
+  {
+    "name": "Livramento",
+    "value": "9473239"
+  },
+  {
+    "name": "Livração",
+    "value": "9408474"
+  },
+  {
+    "name": "Lordelo",
+    "value": "9428191"
+  },
+  {
+    "name": "Loulé",
+    "value": "9478238"
+  },
+  {
+    "name": "Louro",
+    "value": "9405116"
+  },
+  {
+    "name": "Lousado",
+    "value": "9405009"
+  },
+  {
+    "name": "Luso - Buçaco",
+    "value": "9446094"
+  },
+  {
+    "name": "Luz",
+    "value": "9473262"
+  },
+  {
+    "name": "Macinhata",
+    "value": "9442325"
+  },
+  {
+    "name": "Madalena",
+    "value": "9439123"
+  },
+  {
+    "name": "Mafra",
+    "value": "9462166"
+  },
+  {
+    "name": "Malveira",
+    "value": "9462224"
+  },
+  {
+    "name": "Mangualde",
+    "value": "9448009"
+  },
+  {
+    "name": "Marco de Canaveses",
+    "value": "9409001"
+  },
+  {
+    "name": "Marinha Grande",
+    "value": "9463461"
+  },
+  {
+    "name": "Martingança",
+    "value": "9463404"
+  },
+  {
+    "name": "Marujal",
+    "value": "9465052"
+  },
+  {
+    "name": "Marvila",
+    "value": "9466019"
+  },
+  {
+    "name": "Massamá-Barcarena",
+    "value": "9460137"
+  },
+  {
+    "name": "Mato de Miranda",
+    "value": "9432383"
+  },
+  {
+    "name": "Mazagão",
+    "value": "9429116"
+  },
+  {
+    "name": "Maçainhas",
+    "value": "9454262"
+  },
+  {
+    "name": "Mealhada",
+    "value": "9437051"
+  },
+  {
+    "name": "Meia-Praia",
+    "value": "9490431"
+  },
+  {
+    "name": "Meinedo",
+    "value": "9408359"
+  },
+  {
+    "name": "Mercês",
+    "value": "9461051"
+  },
+  {
+    "name": "Messines-Alte",
+    "value": "9477735"
+  },
+  {
+    "name": "Mexilhoeira Grande",
+    "value": "9490381"
+  },
+  {
+    "name": "Midões",
+    "value": "9406080"
+  },
+  {
+    "name": "Mira Sintra-Meleças",
+    "value": "9462042"
+  },
+  {
+    "name": "Miramar",
+    "value": "9439073"
+  },
+  {
+    "name": "Mirão",
+    "value": "9409225"
+  },
+  {
+    "name": "Miuzela",
+    "value": "9449239"
+  },
+  {
+    "name": "Mogofores",
+    "value": "9437143"
+  },
+  {
+    "name": "Moimenta-Alcafache",
+    "value": "9446763"
+  },
+  {
+    "name": "Moita",
+    "value": "9495109"
+  },
+  {
+    "name": "Moledo do Minho",
+    "value": "9418200"
+  },
+  {
+    "name": "Monte Abraão",
+    "value": "9460111"
+  },
+  {
+    "name": "Monte de Lobos",
+    "value": "9446219"
+  },
+  {
+    "name": "Monte Estoril",
+    "value": "9469252"
+  },
+  {
+    "name": "Monte Gordo",
+    "value": "9473544"
+  },
+  {
+    "name": "Monte Real",
+    "value": "9463685"
+  },
+  {
+    "name": "Monte Redondo",
+    "value": "9463685"
+  },
+  {
+    "name": "Montemor",
+    "value": "9465029"
+  },
+  {
+    "name": "Mortágua",
+    "value": "9446243"
+  },
+  {
+    "name": "Moscavide",
+    "value": "9431047"
+  },
+  {
+    "name": "Mosteirô",
+    "value": "9409134"
+  },
+  {
+    "name": "Mouquim",
+    "value": "9405108"
+  },
+  {
+    "name": "Mourisca do Vouga",
+    "value": "9442259"
+  },
+  {
+    "name": "Mouriscas-A",
+    "value": "9452167"
+  },
+  {
+    "name": "Mourisca-Sado",
+    "value": "9491041"
+  },
+  {
+    "name": "Nelas",
+    "value": "9446672"
+  },
+  {
+    "name": "Nespereira",
+    "value": "9428266"
+  },
+  {
+    "name": "Nine",
+    "value": "9406007"
+  },
+  {
+    "name": "Oeiras",
+    "value": "9469179"
+  },
+  {
+    "name": "Oiã",
+    "value": "9437275"
+  },
+  {
+    "name": "Oleiros",
+    "value": "9408250"
+  },
+  {
+    "name": "Olhão",
+    "value": "9473106"
+  },
+  {
+    "name": "Oliveira",
+    "value": "9408409"
+  },
+  {
+    "name": "Oliveira do Bairro",
+    "value": "9437218"
+  },
+  {
+    "name": "Oliveirinha-Cabanas",
+    "value": "9446524"
+  },
+  {
+    "name": "Oliv. Azeméis",
+    "value": "9444339"
+  },
+  {
+    "name": "Oronhe",
+    "value": "9442176"
+  },
+  {
+    "name": "Outeiro",
+    "value": "9462612"
+  },
+  {
+    "name": "Ovar",
+    "value": "9438299"
+  },
+  {
+    "name": "Paialvo",
+    "value": "9434157"
+  },
+  {
+    "name": "Pala",
+    "value": "9409100"
+  },
+  {
+    "name": "Palmela",
+    "value": "9468098"
+  },
+  {
+    "name": "Pampilhosa",
+    "value": "9437002"
+  },
+  {
+    "name": "Pampilhosa-A",
+    "value": "9437168"
+  },
+  {
+    "name": "Papízios",
+    "value": "9446441"
+  },
+  {
+    "name": "Parada",
+    "value": "9408201"
+  },
+  {
+    "name": "Paraimo-Sangalhos",
+    "value": "9437184"
+  },
+  {
+    "name": "Paramos",
+    "value": "9438414"
+  },
+  {
+    "name": "Monte de Paramos",
+    "value": "9444040"
+  },
+  {
+    "name": "Parede",
+    "value": "9469203"
+  },
+  {
+    "name": "Paredes",
+    "value": "9408276"
+  },
+  {
+    "name": "Parque das Cidades",
+    "value": "9478295"
+  },
+  {
+    "name": "Pataias",
+    "value": "9463354"
+  },
+  {
+    "name": "Paço de Arcos",
+    "value": "9469146"
+  },
+  {
+    "name": "Paços de Brandão",
+    "value": "9444107"
+  },
+  {
+    "name": "Paúl",
+    "value": "9462745"
+  },
+  {
+    "name": "Pedra Furada",
+    "value": "9462133"
+  },
+  {
+    "name": "Pegões",
+    "value": "9471126"
+  },
+  {
+    "name": "Pelariga",
+    "value": "9434702"
+  },
+  {
+    "name": "Penafiel",
+    "value": "9408318"
+  },
+  {
+    "name": "Penteado",
+    "value": "9495125"
+  },
+  {
+    "name": "Pereira",
+    "value": "9435055"
+  },
+  {
+    "name": "Pereirinhas",
+    "value": "9428217"
+  },
+  {
+    "name": "Pinhal Novo",
+    "value": "9468007"
+  },
+  {
+    "name": "Pinhão",
+    "value": "9410249"
+  },
+  {
+    "name": "Poceirão",
+    "value": "9471001"
+  },
+  {
+    "name": "Pocinho",
+    "value": "9412005"
+  },
+  {
+    "name": "Pombal",
+    "value": "9434645"
+  },
+  {
+    "name": "Ponte de Sor",
+    "value": "9455293"
+  },
+  {
+    "name": "Porta Nova",
+    "value": "9473338"
+  },
+  {
+    "name": "Portalegre",
+    "value": "9457000"
+  },
+  {
+    "name": "Portela",
+    "value": "9404101"
+  },
+  {
+    "name": "Portela de Sintra",
+    "value": "9461093"
+  },
+  {
+    "name": "Portimão",
+    "value": "9490290"
+  },
+  {
+    "name": "Porto Campanhã",
+    "value": "9402006"
+  },
+  {
+    "name": "Porto Rei",
+    "value": "9409282"
+  },
+  {
+    "name": "Porto São Bento",
+    "value": "9401008"
+  },
+  {
+    "name": "Poço Barreto",
+    "value": "9490134"
+  },
+  {
+    "name": "Pragal",
+    "value": "9417087"
+  },
+  {
+    "name": "Praia do Ribatejo",
+    "value": "9451128"
+  },
+  {
+    "name": "Praias do Sado",
+    "value": "9491058"
+  },
+  {
+    "name": "Praça do Quebedo",
+    "value": "9468130"
+  },
+  {
+    "name": "Pêro Negro",
+    "value": "9462315"
+  },
+  {
+    "name": "Póvoa",
+    "value": "9431146"
+  },
+  {
+    "name": "Queluz-Belas",
+    "value": "9460103"
+  },
+  {
+    "name": "Quintans",
+    "value": "9437358"
+  },
+  {
+    "name": "Ramalhal",
+    "value": "9462547"
+  },
+  {
+    "name": "Reboleira",
+    "value": "9460095"
+  },
+  {
+    "name": "Recarei-Sobreira",
+    "value": "9408177"
+  },
+  {
+    "name": "Recesinhos",
+    "value": "9408441"
+  },
+  {
+    "name": "Rede",
+    "value": "9409357"
+  },
+  {
+    "name": "Reguengo - Vale da Pedra - Pontevel",
+    "value": "9433084"
+  },
+  {
+    "name": "Retaxo",
+    "value": "9452845"
+  },
+  {
+    "name": "Reveles",
+    "value": "9465128"
+  },
+  {
+    "name": "Riachos - Torres Novas - Golegã",
+    "value": "9432466"
+  },
+  {
+    "name": "Rio de Mouro",
+    "value": "9461044"
+  },
+  {
+    "name": "Rio Tinto",
+    "value": "9444115"
+  },
+  {
+    "name": "Rio Meão",
+    "value": "9444115"
+  },
+  {
+    "name": "Rochoso",
+    "value": "9449163"
+  },
+  {
+    "name": "Ródão",
+    "value": "9452647"
+  },
+  {
+    "name": "Roma-Areeiro",
+    "value": "9466035"
+  },
+  {
+    "name": "Rossio",
+    "value": "9459006"
+  },
+  {
+    "name": "Runa",
+    "value": "9462422"
+  },
+  {
+    "name": "Ruílhe",
+    "value": "9429074"
+  },
+  {
+    "name": "Régua",
+    "value": "9410009"
+  },
+  {
+    "name": "Sabugal",
+    "value": "9454429"
+  },
+  {
+    "name": "Sabugo",
+    "value": "9462091"
+  },
+  {
+    "name": "Sacavém",
+    "value": "9431062"
+  },
+  {
+    "name": "Salir do Porto",
+    "value": "9463107"
+  },
+  {
+    "name": "Salreu",
+    "value": "9438125"
+  },
+  {
+    "name": "Santa Cita",
+    "value": "9440105"
+  },
+  {
+    "name": "Santa Comba Dão",
+    "value": "9446367"
+  },
+  {
+    "name": "Santa Cruz Damaia",
+    "value": "9460038"
+  },
+  {
+    "name": "Santa Eulália-A",
+    "value": "9457315"
+  },
+  {
+    "name": "Santa Iria",
+    "value": "9431112"
+  },
+  {
+    "name": "Santa Margarida",
+    "value": "9451185"
+  },
+  {
+    "name": "Santana-Cartaxo",
+    "value": "9432045"
+  },
+  {
+    "name": "Santarém",
+    "value": "9432185"
+  },
+  {
+    "name": "Santo Amaro de Oeiras",
+    "value": "9469161"
+  },
+  {
+    "name": "Santo Tirso",
+    "value": "9428068"
+  },
+  {
+    "name": "Santos",
+    "value": "9469013"
+  },
+  {
+    "name": "Sapataria",
+    "value": "9462299"
+  },
+  {
+    "name": "Sarnadas",
+    "value": "9452803"
+  },
+  {
+    "name": "Seixas",
+    "value": "9418275"
+  },
+  {
+    "name": "Seiça-Ourém",
+    "value": "9434264"
+  },
+  {
+    "name": "Senhora da Agonia",
+    "value": "9418234"
+  },
+  {
+    "name": "Senhora das Neves",
+    "value": "9406312"
+  },
+  {
+    "name": "Sernada do Vouga",
+    "value": "9443000"
+  },
+  {
+    "name": "Sete Rios",
+    "value": "9466076"
+  },
+  {
+    "name": "Setil",
+    "value": "9432003"
+  },
+  {
+    "name": "Setúbal",
+    "value": "9468122"
+  },
+  {
+    "name": "Setúbal-Mar",
+    "value": "9468155"
+  },
+  {
+    "name": "Silva",
+    "value": "9406155"
+  },
+  {
+    "name": "Silvalde",
+    "value": "9438422"
+  },
+  {
+    "name": "Silvalde-Vouga",
+    "value": "9444032"
+  },
+  {
+    "name": "Silves",
+    "value": "9490183"
+  },
+  {
+    "name": "Simões",
+    "value": "9434744"
+  },
+  {
+    "name": "Sintra",
+    "value": "9461101"
+  },
+  {
+    "name": "Soalheira",
+    "value": "9453264"
+  },
+  {
+    "name": "Soito",
+    "value": "9446185"
+  },
+  {
+    "name": "Soudos - Vila Nova",
+    "value": "9440014"
+  },
+  {
+    "name": "Soure",
+    "value": "9434801"
+  },
+  {
+    "name": "Souselas",
+    "value": "9436087"
+  },
+  {
+    "name": "Suzão",
+    "value": "9408060"
+  },
+  {
+    "name": "S.Bart.Serra",
+    "value": "9494227"
+  },
+  {
+    "name": "São Frutuoso",
+    "value": "9404051"
+  },
+  {
+    "name": "São Gemil",
+    "value": "9421006"
+  },
+  {
+    "name": "São João das Craveiras",
+    "value": "9471159"
+  },
+  {
+    "name": "São João de Loure",
+    "value": "9442093"
+  },
+  {
+    "name": "São João do Estoril",
+    "value": "9469237"
+  },
+  {
+    "name": "São João da Madeira",
+    "value": "9444255"
+  },
+  {
+    "name": "São João de Ver",
+    "value": "9444156"
+  },
+  {
+    "name": "São Mamede",
+    "value": "9462786"
+  },
+  {
+    "name": "São Mamede Tua",
+    "value": "9410363"
+  },
+  {
+    "name": "São Mamede Infesta",
+    "value": "9421048"
+  },
+  {
+    "name": "São Marcos",
+    "value": "9477594"
+  },
+  {
+    "name": "São Martinho do Campo",
+    "value": "9408102"
+  },
+  {
+    "name": "São Martinho do Porto",
+    "value": "9463131"
+  },
+  {
+    "name": "São Pedro da Torre",
+    "value": "9418440"
+  },
+  {
+    "name": "São Pedro do Estoril",
+    "value": "9469229"
+  },
+  {
+    "name": "São Romão",
+    "value": "9404077"
+  },
+  {
+    "name": "São Tiago R-UL",
+    "value": "9444313"
+  },
+  {
+    "name": "São Torcato",
+    "value": "9480465"
+  },
+  {
+    "name": "Tadim",
+    "value": "9429090"
+  },
+  {
+    "name": "Taipa-Requeixo",
+    "value": "9442127"
+  },
+  {
+    "name": "Tamel",
+    "value": "9406213"
+  },
+  {
+    "name": "Tancos",
+    "value": "9451086"
+  },
+  {
+    "name": "Taveiro",
+    "value": "9435139"
+  },
+  {
+    "name": "T. Portaveiro",
+    "value": "9438604"
+  },
+  {
+    "name": "Tavira",
+    "value": "9473320"
+  },
+  {
+    "name": "Terronhas",
+    "value": "9408136"
+  },
+  {
+    "name": "Tojeirinha",
+    "value": "9452738"
+  },
+  {
+    "name": "Tomar",
+    "value": "9440154"
+  },
+  {
+    "name": "Torre das Vargens",
+    "value": "9456002"
+  },
+  {
+    "name": "Torres Vedras",
+    "value": "9462471"
+  },
+  {
+    "name": "Torre da Gadanha",
+    "value": "9472199"
+  },
+  {
+    "name": "Tortosendo",
+    "value": "9453678"
+  },
+  {
+    "name": "Tramagal",
+    "value": "9451243"
+  },
+  {
+    "name": "Trancoso",
+    "value": "9408151"
+  },
+  {
+    "name": "Travagem",
+    "value": "9404010"
+  },
+  {
+    "name": "Travassô",
+    "value": "9442135"
+  },
+  {
+    "name": "Trofa",
+    "value": "9404630"
+  },
+  {
+    "name": "Tua",
+    "value": "9411007"
+  },
+  {
+    "name": "Tunes",
+    "value": "9478006"
+  },
+  {
+    "name": "Vacariça",
+    "value": "9446045"
+  },
+  {
+    "name": "Valadares",
+    "value": "9439115"
+  },
+  {
+    "name": "Valado-Nazaré-Alcobaça",
+    "value": "9463263"
+  },
+  {
+    "name": "Vale de Figueira",
+    "value": "9432284"
+  },
+  {
+    "name": "Vale de Prazeres",
+    "value": "9453397"
+  },
+  {
+    "name": "Vale de Santarém",
+    "value": "9432102"
+  },
+  {
+    "name": "Vale do Peso",
+    "value": "9458305"
+  },
+  {
+    "name": "Vale do Peso-A",
+    "value": "9458271"
+  },
+  {
+    "name": "Vale do Judeu",
+    "value": "9478196"
+  },
+  {
+    "name": "Vale da Rosa",
+    "value": "9491033"
+  },
+  {
+    "name": "Vale de Guizo",
+    "value": "9492437"
+  },
+  {
+    "name": "Valença",
+    "value": "9407005"
+  },
+  {
+    "name": "Valongo",
+    "value": "9408086"
+  },
+  {
+    "name": "Valongo - Vouga",
+    "value": "9442291"
+  },
+  {
+    "name": "Vargelas",
+    "value": "9411148"
+  },
+  {
+    "name": "Venda do Alcaide",
+    "value": "9468049"
+  },
+  {
+    "name": "Vendas Novas",
+    "value": "9472009"
+  },
+  {
+    "name": "Vermoil",
+    "value": "9434553"
+  },
+  {
+    "name": "Verride",
+    "value": "9465086"
+  },
+  {
+    "name": "Vesúvio",
+    "value": "9411197"
+  },
+  {
+    "name": "Viana do Castelo",
+    "value": "9418002"
+  },
+  {
+    "name": "Viana",
+    "value": "9474203"
+  },
+  {
+    "name": "Vila das Aves",
+    "value": "9428134"
+  },
+  {
+    "name": "Vila Fernando",
+    "value": "9449114"
+  },
+  {
+    "name": "Vila da Feira",
+    "value": "9444206"
+  },
+  {
+    "name": "Vila Franca das Naves",
+    "value": "9448546"
+  },
+  {
+    "name": "Vila Franca de Xira",
+    "value": "9431278"
+  },
+  {
+    "name": "Vila Meã",
+    "value": "9408433"
+  },
+  {
+    "name": "Vila Nova da Baronia",
+    "value": "9474278"
+  },
+  {
+    "name": "Vila Nova da Rainha",
+    "value": "9431377"
+  },
+  {
+    "name": "Vila Nova de Anços",
+    "value": "9434868"
+  },
+  {
+    "name": "Vila Nova de Cerveira",
+    "value": "9418341"
+  },
+  {
+    "name": "Vila Nova de Gaia - Devesas",
+    "value": "9439164"
+  },
+  {
+    "name": "Vila Pouca do Campo",
+    "value": "9435105"
+  },
+  {
+    "name": "Vila Real de Santo António",
+    "value": "9473569"
+  },
+  {
+    "name": "Vilar Formoso",
+    "value": "9449460"
+  },
+  {
+    "name": "Vilela-Fornos",
+    "value": "9436053"
+  },
+  {
+    "name": "Virtudes",
+    "value": "9433043"
+  },
+  {
+    "name": "Vizela",
+    "value": "9428233"
+  },
+  {
+    "name": "Válega",
+    "value": "9438240"
+  },
+  {
+    "name": "Zibreira",
+    "value": "9462331"
+  },
+  {
+    "name": "Águas Santas",
+    "value": "9403046"
+  },
+  {
+    "name": "Águas de Moura",
+    "value": "9492007"
+  },
+  {
+    "name": "Palmilheira",
+    "value": "9403053"
+  },
+  {
+    "name": "Águeda",
+    "value": "9442218"
+  },
+  {
+    "name": "Âncora-Praia",
+    "value": "9418150"
+  },
+  {
+    "name": "Évora",
+    "value": "9483006"
+  },
+  {
+    "name": "Óbidos",
+    "value": "9462836"
+  }
 ]
