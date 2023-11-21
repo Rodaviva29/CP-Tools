@@ -1,6 +1,6 @@
 # CP Tools - Seguimento de Comboios da CP em Tempo Real
 
-<img src="link_para_o_logo.png" alt="CP Tools Logo" width="200"/>
+<img src="cptools.png" alt="CP Tools Logo" width="200"/>
 
 ## Descrição
 
