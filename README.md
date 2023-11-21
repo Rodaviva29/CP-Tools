@@ -1,4 +1,4 @@
-# CP Tools - Seguimento de Comboios da CP em Tempo Real
+# CP Tools - A notificação que espera por si!
 
 <img src="cptools.png" alt="CP Tools Logo" width="200"/>
 
