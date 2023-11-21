@@ -1,6 +1,6 @@
 # CP Tools - A notificação que espera por si!
 
-<img src="cptools.png" alt="CP Tools Logo" width="200"/>
+<img src="cptools.png" alt="CP Tools Logo" width="50"/>
 
 ## Descrição
 
