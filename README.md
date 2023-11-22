@@ -51,7 +51,7 @@ Gostaría muito de receber contribuições para tornar o CP Tools ainda melhor. 
 
 ## Créditos
 
-Desenvolvido por João Ferreira, o CP Tools é uma ferramenta de código.
+Desenvolvido por João Ferreira, o CP Tools é uma ferramenta em JavaScript com recurso à API das Infraestruturas de Portugal.
 
 Agradecemos a todos os contribuidores e utilizadores que tornaram este projeto possível.
 
