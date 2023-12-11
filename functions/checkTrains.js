@@ -1,7 +1,8 @@
 const { EmbedBuilder } = require('discord.js');
 const readJson = require('../functions/readJson');
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
-const moment = require('moment');
+const moment = require('moment-timezone');
+const formatStationName = require('../functions/formatStationName');
 const fs = require('fs');
 
 module.exports = async function checkTrains(client) {
@@ -29,8 +30,8 @@ module.exports = async function checkTrains(client) {
         for (const train of userTrains) {
 
             const trainId = train.trainId;
-            //const response = await fetch(`https://www.infraestruturasdeportugal.pt/negocios-e-servicos/horarios-ncombio/${trainId}/${dateString}`);
-            const response = await fetch(`https://pastebin.com/raw/Y88cpxbN`);
+            const response = await fetch(`https://www.infraestruturasdeportugal.pt/negocios-e-servicos/horarios-ncombio/${trainId}/${dateString}`);
+            //const response = await fetch(`https://pastebin.com/raw/Y88cpxbN`);
             //console.log(response)
             const data = await response.json();
 
@@ -45,7 +46,7 @@ module.exports = async function checkTrains(client) {
                             embeds: [new EmbedBuilder()
                                 .setTitle(`Comboio no destino!`)
                                 .setDescription(`Que boa viagem! O comboio ${trainId} chegou com sucesso ao seu destino.`)
-                                .setColor('#00FF00')
+                                .setColor('#00bef7')
                                 .setTimestamp()
                             ]
                         });
@@ -75,15 +76,13 @@ module.exports = async function checkTrains(client) {
                         const horaProgramada = node.HoraProgramada;
                         const NomeEstacao = node.NomeEstacao;
 
-                        // TODO: Necessário dar mais informações, como o nome da estação e a hora programada.
-
                         try {
                             await user.send({
                                 embeds: [
                                     new EmbedBuilder()
                                         .setTitle(`Comboio suprimido: ${trainId}`)
-                                        .setDescription(`Lamentamos informar que o comboio ${trainId} com hora programada de chegada às ${horaProgramada} em foi suprimido. Recomendamos verificar alternativas para a sua viagem!`)
-                                        .setColor('#00FF00')
+                                        .setDescription(`Lamentamos informar que o comboio ${trainId} com hora programada de chegada às ${horaProgramada} em ${formatStationName(NomeEstacao)} foi suprimido. Recomendamos verificar alternativas para a sua viagem!`)
+                                        .setColor('#ff0000')
                                         .setTimestamp()
                                 ]
                             });
@@ -113,11 +112,9 @@ module.exports = async function checkTrains(client) {
                     const nodeID = node.NodeID;
                     const horaPrevista = node.Observacoes.slice(14);
                     const horaProgramada = node.HoraProgramada;
-
-                    // TODO: Melhorar o nome da estação (está em caps-lock por default)
                     const NomeEstacao = node.NomeEstacao;
-                    console.log(`O comboio com atraso previsto na estação com ID: ${stationName}|${nodeID}|${NomeEstacao}, possui previsão de chegada às ${horaPrevista}. (O comboio deveria chegar às: ${horaProgramada})`);
 
+                    console.log(`O comboio com atraso previsto na estação com ID: ${stationName}|${nodeID}|${formatStationName(NomeEstacao)}, possui previsão de chegada às ${horaPrevista}. (O comboio deveria chegar às: ${horaProgramada})`);
 
                     if (nodeID === train.stationName && horaPrevista !== train.lastEdit) {
 
@@ -125,9 +122,9 @@ module.exports = async function checkTrains(client) {
                             await user.send({
                                 embeds: [
                                     new EmbedBuilder()
-                                        .setTitle(`Atraso previsto: ${trainId}`)
-                                        .setDescription(`O comboio ${trainId} em ${NomeEstacao} tem um atraso previsto para ${horaPrevista}. (O comboio deveria chegar às: ${horaProgramada})`)
-                                        .setColor('#00FF00')
+                                        .setTitle(`Atraso previsto: ${formatStationName(NomeEstacao)} (${trainId})`)
+                                        .setDescription(`O comboio ${trainId} em ${formatStationName(NomeEstacao)} tem um atraso previsto com nova hora de chegada: **${horaPrevista}**.\n(O comboio deveria chegar às: ${horaProgramada})`)
+                                        .setColor('#ffa500')
                                         .setTimestamp()
                                 ]
                             });
@@ -156,12 +153,11 @@ module.exports = async function checkTrains(client) {
                     const nodeID = node.NodeID;
                     const horaProgramada = node.HoraProgramada;
 
-                    // TODO: Melhorar o nome da estação (está em caps-lock por default)
                     const NomeEstacao = node.NomeEstacao;
 
-                    console.log(`O comboio está com a sua circulação normalizada na estação com ID: ${stationName}|${nodeID}|${NomeEstacao}, possui previsão de chegada às ${horaProgramada}.`);
+                    console.log(`O comboio está com a sua circulação normalizada na estação com ID: ${stationName}|${nodeID}|${formatStationName(NomeEstacao)}, possui previsão de chegada às ${horaProgramada}.`);
 
-                    const horaAtual = moment().add(1, 'hour').format('HH:mm');
+                    const horaAtual = moment().tz('Europe/Lisbon').format('HH:mm');
 
                     console.log(horaAtual)
 
@@ -179,8 +175,8 @@ module.exports = async function checkTrains(client) {
                                     embeds: [
                                         new EmbedBuilder()
                                             .setTitle('Lembrete [1/2]')
-                                            .setDescription(`O comboio ${trainId} está com a sua circulação normalizada com previsão de chegada ás ${horaProgramada} na tua estação de preferência: ${NomeEstacao}.`)
-                                            .setColor('#00FF00')
+                                            .setDescription(`O comboio ${trainId} está com a sua circulação normalizada com previsão de chegada ás ${horaProgramada} na tua estação de preferência: ${formatStationName(NomeEstacao)}.`)
+                                            .setColor('#74b454')
                                             .setTimestamp()
                                     ]
                                 });
@@ -203,8 +199,8 @@ module.exports = async function checkTrains(client) {
                                     embeds: [
                                         new EmbedBuilder()
                                             .setTitle('Lembrete [2/2]')
-                                            .setDescription(`O comboio ${trainId} está com a sua circulação normalizada com previsão de chegada ás ${horaProgramada} na tua estação de preferência: ${NomeEstacao}.`)
-                                            .setColor('#00FF00')
+                                            .setDescription(`O comboio ${trainId} está com a sua circulação normalizada com previsão de chegada ás ${horaProgramada} na tua estação de preferência: ${formatStationName(NomeEstacao)}.`)
+                                            .setColor('#74b454')
                                             .setTimestamp()
                                     ]
                                 });
