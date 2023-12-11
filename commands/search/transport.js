@@ -1,4 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const formatStationName = require('../../functions/formatStationName');
 
 module.exports = {
@@ -23,7 +24,8 @@ module.exports = {
 
         // Verifica se o conteúdo retornado é igual ao valor esperado.
         const expectedContent = '{"response":{"DataHoraDestino":null,"DataHoraOrigem":null,"Destino":null,"DuracaoViagem":null,"NodesPassagemComboio":null,"Operador":null,"Origem":null,"SituacaoComboio":null,"TipoServico":null}}';
-        if (JSON.stringify(data) === expectedContent) {
+        const expectedContent_2 = '{"response":null}';
+        if (JSON.stringify(data) === expectedContent || JSON.stringify(data) === expectedContent_2) {
             // Define a mensagem embed como a mensagem personalizada.
             const embed = {
                 color: 0xff0000,
@@ -99,7 +101,11 @@ module.exports = {
         let trajeto = '';
         for (let j = 0; j < nodesPassagemComboio.length; j++) {
             const node = nodesPassagemComboio[j];
-            trajeto += `**${j + 1}.** ${formatStationName(node.NomeEstacao)} (_${node.HoraProgramada}_)\n`;
+
+            // Verifica se o comboio já passou no "node"
+            const comboioPassouCheck = node.ComboioPassou ? '~~' : '';
+
+            trajeto += `${comboioPassouCheck}**${j + 1}.** ${formatStationName(node.NomeEstacao)} (_${node.HoraProgramada}_)${comboioPassouCheck}\n`;
             // trajeto += `**Hora Programada:** ${node.HoraProgramada}\n`;
             // trajeto += `**Comboio Passou:** ${node.ComboioPassou}\n`;
             if (node.Observacoes) {
