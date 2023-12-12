@@ -123,7 +123,7 @@ module.exports = async function checkTrains(client) {
                                 embeds: [
                                     new EmbedBuilder()
                                         .setTitle(`Atraso previsto: ${formatStationName(NomeEstacao)} (${trainId})`)
-                                        .setDescription(`O comboio ${trainId} em ${formatStationName(NomeEstacao)} tem um atraso previsto com nova hora de chegada: **${horaPrevista}**.\n(O comboio deveria chegar às: ${horaProgramada})`)
+                                        .setDescription(`Estimado passageiro, o comboio ${trainId} na estação de ${formatStationName(NomeEstacao)} às ~~${horaProgramada}~~ tem um atraso previsto com nova hora de chegada: **${horaPrevista}**.`)
                                         .setColor('#ffa500')
                                         .setTimestamp()
                                 ]
