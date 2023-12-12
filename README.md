@@ -44,7 +44,7 @@ Gostaría muito de receber contribuições para tornar o CP Tools ainda melhor. 
 
 ## Instalação
 
-1. Clona o repositório: `git clone https://github.com/seu-utilizador/CP-Tools.git`
+1. Clona o repositório: `git clone https://github.com/Rodaviva29/CP-Tools.git`
 2. Instala as dependências: `npm install`
 3. Configura as variáveis de ambiente necessárias em `config.json`.
 4. Inicia a aplicação: `npm start`
@@ -53,11 +53,9 @@ Gostaría muito de receber contribuições para tornar o CP Tools ainda melhor. 
 
 Desenvolvido por João Ferreira, o CP Tools é uma ferramenta em JavaScript com recurso à API das Infraestruturas de Portugal.
 
-Agradecemos a todos os contribuidores e utilizadores que tornaram este projeto possível.
-
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT - consulta o ficheiro [LICENSE.md](LICENSE.md) para obter detalhes.
+Este projeto é licenciado sob a Licença  Apache-2.0 - consulta o ficheiro [LICENSE.md](LICENSE.md) para verificares os detalhes.
 
 ---
 
