@@ -38,17 +38,5 @@
                 "lastCheck": ""
             }
         ]
-    },
-    "803658045736878080": {
-        "active_all": true,
-        "data": [
-            {
-                "trainId": 1,
-                "stationName": 9460046,
-                "lastDate": "2023-05-14",
-                "lastEdit": "",
-                "lastCheck": ""
-            }
-        ]
     }
 }
