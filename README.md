@@ -1,5 +1,7 @@
 # CP Tools - A notificação que espera por si!
 
+# PROJETO ARQUIVADO - Nenhuma atualização prevista para o futuro.
+
 <img src="cptools.png" alt="CP Tools Logo" width="50"/>
 
 ## Descrição
